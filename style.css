@@ -1,0 +1,143 @@
+/* Fontes */
+@import url("https://use.typekit.net/jzc6ohz.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: corporate-s, sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    background-color: #FFFFFF;
+    color: #000100;
+}
+
+.logo img {
+    width: 9rem;
+    margin-top: -1rem;
+}
+
+nav {
+    max-width: 1120px;
+    margin: auto;
+    padding: 1.5rem 10rem;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    background: url(/img/download.svg) no-repeat center center/cover;
+    color: #FFFFFF;
+
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-weight: lighter;
+    margin: 1.5rem;
+    font-size: 2rem;
+}
+
+
+.card-body input {
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    outline: none;
+    width: 24rem;
+    margin-right: 0.8rem;
+}
+
+.card-body button {
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: #212326;
+    color: white;
+    cursor: pointer;
+    width: 10rem;
+    transition: color 0.3s ease;
+}
+
+.card-body button:hover {
+    background-color: #FFFFFF;
+    color: #000100;
+    font-weight: bold;
+    transform: scale(1.02);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+}
+
+.hero-subtitle {
+    margin: 2rem;
+    font-size: 0.8rem;
+}
+
+.imagem-info {
+    margin-top: -16.7rem;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 1200px) {
+    .imagem-info {
+        margin-top: -13rem;
+    }
+}
+@media (max-width: 768px) {
+    .imagem-info {
+        margin-top: -9rem;
+        
+    }
+}
+
+@media (max-width: 580px) {
+    .card-body button {
+        margin-top: 0.8rem;
+        width: 24rem;
+        margin-left: -0.6rem;
+    }
+}
+
+.containers-info {
+    display: flex;
+    max-width: 1120px;
+    padding: 5rem 3rem;
+    margin: auto;
+    justify-content: center;
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.container-info {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.containers-info p {
+    margin-top: 1rem;
+    opacity: 0.65;
+}
+
+@media (max-width: 768px) {
+    .containers-info {
+        flex-direction: column;
+    }
+}
